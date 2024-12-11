@@ -9,7 +9,7 @@ void func(int n, int m){
             func(n + 1, m);
         else
             func(n - 1, m);
-    }
+    } 
 }
 
 

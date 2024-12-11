@@ -2,16 +2,15 @@
 
 void func(int n){
 
-    if(n % 2 == 0)
-        printf("%d ", n);
-
     if(n != 1)
         func(n - 1);
+
+    printf("%d ", n);
 }
 
 int main(){ 
 
-    func(9);
+    func(5);
 
     return 0;
 }
